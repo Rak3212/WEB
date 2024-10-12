@@ -1,0 +1,14 @@
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.photo-column {
+    text-align: center;
+    width: 50%; /* Adjust the width as needed */
+}
+.photo-column img {
+    width: 100%; /* This will make the image responsive to the container width */
+    border-radius: 50%; /* This creates the round shape */
+    margin-bottom: 10px; /* Space between the image and the name */
+}
